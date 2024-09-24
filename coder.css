@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+   
+    background-image: url(photo_2024-09-20_10-12-28.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo{
+    background-color:gray ;
+    color: blue;
+    width: 150px;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-left: -2%;
+    margin-right: 0;
+
+}
+ul{
+    margin-top: -1%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    transition: .4s ease ;
+}
+ul li a:hover{
+    color: blue;
+
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    color: white;
+}
+.info h1{
+    font-size: 100px;
+   color: white;
+}
+.info h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.info span{
+    color: blue;
+}
+.info a{
+    text-decoration: none;
+    color: blue;
+    background: rgb(37, 35, 35);
+    margin: 26px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    background: white;
+}
+.imga img{
+    width: 150px;
+    height: 40%;
+    position: absolute;
+    /* right: 500px; */
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 80%;
+    left: 80%;
+    transform: translate(-40%);
+    bottom: 0;
+    width: 400px;
+
+}
